@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Ruslan+Display&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ee6c4d;
+    color: white;
+    padding: 5px 0;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+#brand {
+    font-family: "Ruslan Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#hero {
+    background-image: url("../image/back.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ee6c4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #d64b2a;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Styling for About Section */
+#about {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#about h2 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Styling for Experience Section */
+#experience {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: left;
+}
+
+#experience h2 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#experience ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+#experience li {
+    margin-bottom: 10px;
+}
+
+/* Styling for Education Section */
+#education {
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+#education h2 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#education ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+#education li {
+    margin-bottom: 10px;
+}
+
+
+/* Styling for Skills Section */
+#skills {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+#skills h2 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#slider {
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#slider img {
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling for Interest Section */
+#interests {
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+#interests h2 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#interests ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+#interests li {
+    margin-bottom: 10px;
+}
+
+/* Styling for Award Section */
+#award {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+#award h2 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+img.image-award {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+
+/* Styling for Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #0056b3;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+/* Hover Effects */
+#services li:hover,
+#contact p:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+/* Responsive Design Adjustments */
+@media screen and (max-width: 768px) {
+
+    #services,
+    #about,
+    #contact {
+        text-align: center;
+    }
+
+    #services ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}
